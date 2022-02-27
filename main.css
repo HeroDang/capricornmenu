@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+.main {
+    width: 720px;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.btn__menu{
+    text-align: center;
+    background-color: blue;
+    margin: 30px 10px;
+    color: white;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.drink__list{
+}
+
+.drink__item{
+    padding: 10px;
+    margin: 20px;
+    min-height: 100px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.item__name{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item__price{
+
+}
+
+.backgroud{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+
+.recipe__list{
+
+}
+
+.recipe__item{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.step__list{
+
+}
+
+.step__item{
+
+}
+
+.step__item{
+
+}
+
+.step__item{
+
+}
+
+.active{
+    display: block;
+}
